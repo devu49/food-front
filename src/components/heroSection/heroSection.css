@@ -1,0 +1,48 @@
+.hero {
+    overflow: hidden;
+    border: 1px solid rgb(236, 236, 236);
+    margin: 2rem;
+    border-radius: 2rem;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero_heading {
+    line-height: 4rem;
+    font-size: 4rem;
+
+}
+
+.hero_heading_imp {
+    color: #277506;
+    position: relative;
+    top: -1rem;
+}
+
+
+
+.hero_right_child {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+    right: -3rem;
+}
+
+.hero_right_desing {
+    height: 130rem;
+    position: absolute;
+    background-color: rgb(13, 34, 10);
+    right: -70rem;
+    top: -40rem;
+    width: 100rem;
+    z-index: -1;
+}
+
+.hero_left_desing {
+    position: absolute;
+    z-index: -1;
+    width: 20rem;
+    top: -10rem;
+    left: -5rem;
+}
